@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image:linear-gradient( rgba(0,0,0,0.7),
+  rgba(0,0,0,0.7) ), url("wallpaper.jpeg") ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    color: #fff;
+}
+
+#Contenedor {
+    width: 960;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20x;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+header {
+    height: 150px;
+    background: #585555;
+
+
+}
+
+header h1 {
+    font-size:100px ;
+    text-align: center;
+    line-height: 150px;
+}
+
+nav .Menu {
+    list-style: none;
+    padding: 0px;
+    background: black;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a {
+    text-decoration:none ;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background: cadetblue;
+}
+
+#contenido {
+    width: 700px;
+    height: 500px;
+    float: left;
+    background: #272E37;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#contenido p {
+font-size: 20px;;
+height: 100px;
+padding: 10;
+}
+
+
+aside {
+    width: 250px;
+    height: 500px;
+    background: transparent;
+    margin-top: 10px;
+    float: right;
+}
+
+aside img {
+    text-align: center;
+    height: 500px;
+    width: 700px;
+    
+    
+}
+
+footer {
+    background: black;
+    clear: both;
+}
+
+footer h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
